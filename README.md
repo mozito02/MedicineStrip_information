@@ -12,10 +12,12 @@ MedicineStrip_information/
 │   └── best.pt                           #saved YOLO model after training
 │
 ├── Paddleocr_change_comparison/         # Visual comparison: PaddleOCR output snapshots
-│   └── paddleocr_fail_case_comparison.jpg
+│   ├── paddleocr_before.jpg
+│   └── paddleocr_after
 │
 ├── previous_notebook_medicineStrip/     # Previous trials using different OCR engines
-│   └── paddleocr_previous_tests.ipynb
+│  ├── Yolov11_final.ipynb
+│  └──Issue Report on PaddleOCR Malfunction Post.pdf
 │
 ├── Medicine_strip_easyocr.ipynb         # Main notebook: YOLOv11 + EasyOCR + Gemini pipeline
 └── README.md                            # Project documentation
@@ -80,7 +82,7 @@ Additional dependencies may include OpenCV, NumPy, and transformers if using Gem
 
 ## Contributor
 
-Abir Mozito – Research, development, and experimentation with OCR and object detection methods.
+Abir Chakraborty – Research, development, and experimentation with OCR and object detection methods.
 
 ## References
 
